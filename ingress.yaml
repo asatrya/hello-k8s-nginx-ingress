@@ -5,9 +5,9 @@ metadata:
   namespace: dev
 spec:
   rules:
-  - host: 35.186.159.138.xip.io
+  - host: hello2.35.247.167.189.xip.io
     http:
       paths:
       - backend:
-          serviceName: hello-service
-          servicePort: 80
+          serviceName: hello-app-2-service
+          servicePort: http
