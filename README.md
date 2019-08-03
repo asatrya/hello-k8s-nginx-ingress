@@ -14,6 +14,12 @@ This is a simple application demonstrating how to deploy NGINX Ingress in Google
 kubectl apply -f mandatory.yaml
 ```
 
+The command above is similiar to
+
+```bash
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/master/deploy/static/mandatory.yaml
+```
+
 Check the ingress controller pods to make sure if it is setup correctly.
 
 ```bash
